@@ -23,8 +23,21 @@
   "gnetId": null,
   "graphTooltip": 0,
   "id": 10,
-  "iteration": 1640321995558,
-  "links": [],
+  "iteration": 1640829050920,
+  "links": [
+    {
+      "asDropdown": false,
+      "icon": "external link",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": true,
+      "title": "GitHub",
+      "tooltip": "",
+      "type": "link",
+      "url": "https://github.com/Dup4/domjudge-exporter"
+    }
+  ],
   "liveNow": false,
   "panels": [
     {
@@ -786,18 +799,20 @@
   "refresh": "30s",
   "schemaVersion": 31,
   "style": "dark",
-  "tags": [],
+  "tags": [
+    "DOMjudge"
+  ],
   "templating": {
     "list": [
       {
-        "allValue": null,
+        "allValue": "",
         "current": {
           "selected": true,
           "text": [
-            "Test"
+            "All"
           ],
           "value": [
-            "Test"
+            "$__all"
           ]
         },
         "datasource": "Prometheus",
@@ -805,7 +820,7 @@
         "description": null,
         "error": null,
         "hide": 0,
-        "includeAll": false,
+        "includeAll": true,
         "label": null,
         "multi": true,
         "name": "contest",
@@ -846,5 +861,5 @@
   "timezone": "",
   "title": "DOMjudge",
   "uid": "dgw0uL77k",
-  "version": 14
+  "version": 17
 }
